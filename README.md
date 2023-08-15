@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Live-Comm App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Live Comm Logo](https://www.linkpicture.com/q/29d1ff6b-8bb0-4c72-97c3-61ee783b6d7f.png)
 
-## Available Scripts
+Live Comm is a real-time communication platform that empowers users to connect, collaborate, and communicate seamlessly. This repository provides an overview of the app's features, functionalities, and technologies used in its development.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### Authentication
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Login & Signup:** Users can create accounts, log in, and access the platform securely.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Dashboard
 
-### `npm test`
+- **Create Channel:** Users can create public channels for group discussions.
+- **Add Friends:** Users can connect with friends and add them to channels.
+- **Create DM Channel:** Private direct message (DM) channels for one-on-one conversations.
+- **Edit Channel:** Channel owners can edit channel details.
+- **List Channels and DM's:** Display a list of channels and DM conversations.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Messaging
 
-### `npm run build`
+- **Send Message:** Users can send text messages in real-time.
+- **Edit Message:** Messages can be edited after sending.
+- **Reaction to a Message:** Users can react to messages with emojis.
+- **Open Thread:** Users can start a threaded discussion on specific messages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Media & Search
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Send Images, GIFs, and Emojis:** Users can enrich conversations with images, GIFs, and emojis.
+- **Search:** Users can search for messages and content within channels and DMs.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- **React**: A JavaScript library for building user interfaces.
+- **Stream Chat**: A tool for adding real-time chat functionality to applications.
+- **Bcrypt**: A password-hashing library for securing user data.
+- **Crypto**: Used for cryptographic operations.
+- **Nodemon**: A utility that monitors for changes in files and automatically restarts the server.
+- **Twilio**: Used for messaging services.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone this repository.
+2. Install the required dependencies using `npm install`.
+3. Run the development server using `npm start`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Here are some screenshots of the Live Comm App:
 
-## Learn More
+![Screenshot 1](https://www.linkpicture.com/q/chrome_Yy8gcsOkbB.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot 2](https://www.linkpicture.com/q/chrome_fvu6ILZqx9.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot 3](https://www.linkpicture.com/q/chrome_ZmigrbTtL1.png)
 
-### Code Splitting
+![Screenshot 4](https://www.linkpicture.com/q/chrome_ug7Io3drg2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot 5](https://www.linkpicture.com/q/chrome_qrCefZ29UY.png)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Live Comm](https://furkan-senoglu.netlify.app/) | Contact: https://furkan-senoglu.netlify.app/
